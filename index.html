@@ -1,73 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pasta della Nonna — La pasta come a casa 🇮🇹</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pasta della Nonna — La pasta come a casa 🇮🇹</title>
 
-  <!-- Lien vers le fichier CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Section Menu -->
+    <section id="menu" class="section">
+      <div class="container">
+        <h2 class="section-title">Nos pâtes préférées</h2>
 
-  <!-- Section Menu -->
-  <section id="menu" class="section">
-    <div class="container">
-      <h2 class="section-title">Nos pâtes préférées</h2>
+        <div class="grid">
+          <article class="card">
+            <div
+              class="card-img img-spaghetti"
+              role="img"
+              aria-label="Assiette de spaghetti"
+            ></div>
+            <h3>Spaghetti alla Pomodoro</h3>
+            <p>Sauce tomate maison, basilic, huile d'olive extra-vierge.</p>
+            <div class="card-foot">
+              <span class="price">9,90€</span>
+              <a class="btn btn-small" href="#contact">Ajouter</a>
+            </div>
+          </article>
 
-      <div class="grid">
+          <article class="card">
+            <div
+              class="card-img img-penne"
+              role="img"
+              aria-label="Penne à la sauce arrabiata"
+            ></div>
+            <h3>Penne all'arrabbiata 🌶️</h3>
+            <p>Tomates, ail, piment. Un peu de feu, beaucoup de goût.</p>
+            <div class="card-foot">
+              <span class="price">10,90€</span>
+              <a class="btn btn-small" href="#contact">Ajouter</a>
+            </div>
+          </article>
 
-        <article class="card">
-          <div class="card-img img-spaghetti" role="img" aria-label="Assiette de spaghetti"></div>
-          <h3>Spaghetti alla Pomodoro</h3>
-          <p>Sauce tomate maison, basilic, huile d'olive extra-vierge.</p>
-          <div class="card-foot">
-            <span class="price">9,90€</span>
-            <a class="btn btn-small" href="#contact">Ajouter</a>
-          </div>
-        </article>
+          <article class="card">
+            <div
+              class="card-img img-fusilli"
+              role="img"
+              aria-label="Fusilli pesto"
+            ></div>
+            <h3>Fusilli al Pesto</h3>
+            <p>Pesto basilic, pignons, parmesan. Profumo di Genova.</p>
+            <div class="card-foot">
+              <span class="price">11,50€</span>
+              <a class="btn btn-small" href="#contact">Ajouter</a>
+            </div>
+          </article>
 
-        <article class="card">
-          <div class="card-img img-penne" role="img" aria-label="Penne à la sauce arrabiata"></div>
-          <h3>Penne all'arrabbiata 🌶️</h3>
-          <p>Tomates, ail, piment. Un peu de feu, beaucoup de goût.</p>
-          <div class="card-foot">
-            <span class="price">10,90€</span>
-            <a class="btn btn-small" href="#contact">Ajouter</a>
-          </div>
-        </article>
+          <article class="card">
+            <div
+              class="card-img img-ravioli"
+              role="img"
+              aria-label="Ravioli ricotta épinards"
+            ></div>
+            <h3>Ravioli Ricotta & Épinards</h3>
+            <p>Farce fondante, beurre à la sauge. La dolce vita.</p>
+            <div class="card-foot">
+              <span class="price">12,90€</span>
+              <a class="btn btn-small" href="#contact">Ajouter</a>
+            </div>
+          </article>
+        </div>
+        <!-- fin .grid -->
 
-        <article class="card">
-          <div class="card-img img-fusilli" role="img" aria-label="Fusilli pesto"></div>
-          <h3>Fusilli al Pesto</h3>
-          <p>Pesto basilic, pignons, parmesan. Profumo di Genova.</p>
-          <div class="card-foot">
-            <span class="price">11,50€</span>
-            <a class="btn btn-small" href="#contact">Ajouter</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-img img-ravioli" role="img" aria-label="Ravioli ricotta épinards"></div>
-          <h3>Ravioli Ricotta & Épinards</h3>
-          <p>Farce fondante, beurre à la sauge. La dolce vita.</p>
-          <div class="card-foot">
-            <span class="price">12,90€</span>
-            <a class="btn btn-small" href="#contact">Ajouter</a>
-          </div>
-        </article>
-
-      </div> <!-- fin .grid -->
-
-      <p class="free-ship">Livraison offerte dès 30€</p>
-    </div>
-  </section>
-  <!-- À propos -->
-  <section id="about" class="section">
-    <div class="container about">
-      <h2 class="section-title">À propos</h2>
-      <p>On pétrit, on extrude, on sèche doucement. Nos sauces mijotent comme chez la Nonna, sur un coin de cuisinière, pendant que la Vespa refroidit devant la trattoria.</p>
-    </div>
-  </section>
-</body>
+        <p class="free-ship">Livraison offerte dès 30€</p>
+      </div>
+    </section>
+    <!-- À propos -->
+    <section id="about" class="section">
+      <div class="container about">
+        <h2 class="section-title">À propos</h2>
+        <p>
+          On pétrit, on extrude, on sèche doucement. Nos sauces mijotent comme
+          chez la Nonna, sur un coin de cuisinière, pendant que la Vespa
+          refroidit devant la trattoria.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
